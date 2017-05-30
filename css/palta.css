@@ -730,3 +730,39 @@ a.unlink {
     display: none!important
   }
 }
+
+.g-recaptcha > div{
+  width: 100% !important;
+}
+
+.steps-list ol li{
+  padding-bottom: 2em;
+}
+
+.steps-list ol li.active{
+  font-weight: 600;
+}
+
+.steps-list ol li.done{
+  font-weight: 600;
+  color: #33b560;
+}
+
+.form-radar .btn-default{
+  font-size: 12px;
+  padding: 1em;
+}
+
+@media screen and (max-width: 768px){
+  .form-radar .btn-default{
+    font-size: 10px;
+    padding: 0.5em;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .form-radar .btn-default{
+    font-size: 8px;
+    padding: 0.5em;
+  }
+}
