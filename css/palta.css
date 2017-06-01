@@ -837,3 +837,19 @@ a.unlink {
   width: 150px;
 }
 
+.panel-heading {
+  min-height:auto !important;
+}
+
+.bg-goscuro{
+  background-color: #666 !important;
+}
+
+.text-white {
+  color: #ffffff !important;
+}
+
+.profile-panel ul li{
+  list-style: none;
+  padding-top: 20px;
+}
