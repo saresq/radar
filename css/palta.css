@@ -853,3 +853,60 @@ a.unlink {
   list-style: none;
   padding-top: 20px;
 }
+
+.progress-circle-alert.media .c100{
+  background-color: white;
+}
+
+.progress-circle-alert.media .c100:after{
+  background-color: #daf1f8;
+}
+
+.progress-circle-alert.media .c100 p{
+  font-size: 38px;
+  font-weight: bold;
+}
+
+.progress-circle-alert.media .media-body{
+  padding-top: 25px;
+}
+
+.progress-circle-alert.media .media-body h3{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.progress-circle-alert.media .media-body p{
+  font-size: 1.7rem;
+}
+
+.progress-circle-alert.media .media-body button span{
+  vertical-align: middle;
+}
+.progress-circle-alert.media .media-body button i{
+  font-size: 1.8em;
+  vertical-align: middle;
+  margin-left: 15px;
+}
+
+.table-item{
+  padding: 15px 0px;
+  margin: 0px 15px;
+  border-bottom: 1px solid #ccc;
+}
+
+.table-item .progress{
+  margin-top: 5px;
+}
+
+.table-item:last-child{
+  border-bottom: none;
+}
+
+.icon-panels .panel.panel-default{
+  min-height: 480px;
+}
+
+.icon-panels .panel.panel-default .panel-body{
+  min-height: 235px;
+}
