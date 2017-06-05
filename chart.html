@@ -76,14 +76,16 @@
 
     <div class="container">
       <div class="row row-eq-height bg-white">
-        <div class="col-md-4 col-xs-12 ">
+
+        <div class="col-md-3 col-xs-12 ">
+
           <div class="row">
-            <div class="col-md-9 bg-gray aligner">
+            <div class="col-md-12 bg-gray aligner">
               <h5 class="text-primary">Desempeño General</h5>
             </div>
 
-            <div class="col-md-9 text-center">
-              <div class="row aligner p-t-1">
+            <div class="col-md-12 text-center">
+              <div class="row aligner p-t-1 p-b-1">
                 <div class="col-md-6">
                   <h5>Mi PyME</h5>
                 </div>
@@ -93,8 +95,8 @@
               </div>
             </div>
 
-            <div class="col-md-9 text-center">
-              <div class="row aligner p-t-1">
+            <div class="col-md-12 text-center">
+              <div class="row aligner p-t-1 p-b-1">
                 <div class="col-md-6">
                   <h5>Media</h5>
                 </div>
@@ -105,10 +107,76 @@
             </div>
 
           </div>
-        </div>
-        <div class="col-md-8 col-xs-12">
 
-          <div id="container" style="height: auto; margin: 0 auto"></div>
+          <div class="row">
+            <!--  Esta tabla debe cargarse aqui y debajo del highcharts-->
+            <div class="col-md-9 text-center p-t-4 hidden-lg-down">
+
+              <p class="text-left"><strong>Comparado con:</strong></p>
+
+              <div class="form-group m-b-1">
+                <select class="form-control input-sm">
+                  <option value="">lorem ipsum</option>
+                </select>
+              </div>
+
+              <div class="form-group m-b-1">
+                <select class="form-control input-sm">
+                  <option value="">lorem ipsum</option>
+                </select>
+              </div>
+
+              <div class="form-group m-b-1">
+                <select class="form-control input-sm">
+                  <option value="">lorem ipsum</option>
+                </select>
+              </div>
+
+              <a href="#" class="btn btn-primary">CAMBIAR</a>
+
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-md-9 col-xs-12">
+
+          <!-- highCharts -->
+          <div id="container" style="height: auto"></div>
+          <!-- /highCharts -->
+
+          <div class="col-md-2 col-md-push-10 p-t-1 text-left">
+            <p><span class="label label-info">&nbsp;&nbsp;</span> Mi PyME</p>
+            <p><span class="label bg-gray">&nbsp;&nbsp;</span> Media</p>
+          </div>
+
+          <!--  Esta tabla debe cargarse aqui y arriba-->
+          <div class="col-md-9 text-center p-t-4 hidden-lg-up">
+
+            <p class="text-left"><strong>Comparado con:</strong></p>
+
+            <div class="form-group m-b-1">
+              <select class="form-control input-sm">
+                <option value="">lorem ipsum</option>
+              </select>
+            </div>
+
+            <div class="form-group m-b-1">
+              <select class="form-control input-sm">
+                <option value="">lorem ipsum</option>
+              </select>
+            </div>
+
+            <div class="form-group m-b-1">
+              <select class="form-control input-sm">
+                <option value="">lorem ipsum</option>
+              </select>
+            </div>
+
+            <a href="#" class="btn btn-primary">CAMBIAR</a>
+
+          </div>
+
         </div>
 
       </div>
