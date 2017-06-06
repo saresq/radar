@@ -73,35 +73,58 @@
   </header>
 
   <main role="main" class="">
+    <header class="p-b-1 bg-gray">
+      <div class="container">
+
+        <ol class="breadcrumb">
+          <a href=""><i class="fa fa-arrow-circle-o-down fa-2x p-l-1 p-r-1" style="float:right;"></i></a>
+          <a href=""><i class="fa fa-envelope-o fa-2x p-l-1 p-r-1" style="float:right;"></i></a>
+          <a href=""><i class="fa fa-print fa-2x p-l-1 p-r-1" style="float:right;"></i></a>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Cuestionario</a></li>
+          <li class="active">Radar General</li>
+        </ol>
+      </div>
+    </header>
+
+    <div class="container-fluid bg-white">
+      <div class="container m-t-2 m-b-2">
+
+        <h2 class="text-info debold">Dimensiones estratégicas</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+      </div>
+    </div>
 
     <div class="container">
-      <div class="row row-eq-height bg-white">
+      <div class="row bg-white m-t-3 m-b-3" style="border: 1px solid #c9c9c9; border-radius:4px;">
 
-        <div class="col-md-3 col-xs-12 ">
+        <div class="col-md-3 col-xs-12">
 
-          <div class="row">
-            <div class="col-md-12 bg-gray aligner">
+          <div class="row" style="border: 1px solid #c9c9c9; border-left: 0px; border-top:0px;">
+            <div class="col-md-12 bg-gray aligner" style="border-bottom: 1px solid #c9c9c9;">
               <h5 class="text-primary">Desempeño General</h5>
             </div>
 
             <div class="col-md-12 text-center">
-              <div class="row aligner p-t-1 p-b-1">
-                <div class="col-md-6">
+              <div class="row aligner p-t-1 p-b-1 " style="border-bottom: 1px solid #c9c9c9;">
+                <div class="col-md-6 text-left p-l-2">
                   <h5>Mi PyME</h5>
                 </div>
                 <div class="col-md-6">
-                  <h5><span class="label label-success">90</span></h5>
+                  <h4><span class="label label-success">90</span></h4>
                 </div>
               </div>
             </div>
 
             <div class="col-md-12 text-center">
               <div class="row aligner p-t-1 p-b-1">
-                <div class="col-md-6">
+                <div class="col-md-6 text-left p-l-2">
                   <h5>Media</h5>
                 </div>
                 <div class="col-md-6">
-                  <h5><span class="label label-warning">50</span></h5>
+                  <h4><span class="label label-warning">50</span></h4>
                 </div>
               </div>
             </div>
@@ -110,7 +133,7 @@
 
           <div class="row">
             <!--  Esta tabla debe cargarse aqui y debajo del highcharts-->
-            <div class="col-md-9 text-center p-t-4 hidden-lg-down">
+            <div class="col-md-9 text-center p-t-4 hidden-lg-down p-l-2">
 
               <p class="text-left"><strong>Comparado con:</strong></p>
 
@@ -180,7 +203,112 @@
         </div>
 
       </div>
+    </div>
 
+    <!-- <div class="container-fluid p-t-2 bg-white"> -->
+    <div class="container">
+      <div class="row">
+
+        <h2 class="text-info debold">Dimensiones estratégicas</h2>
+
+<div class="responsi">
+
+</div>
+        <table class="table">
+          <thead>
+            <tr>
+              <th></th>
+              <th>Dimensión</th>
+              <th class="text-center">Variación</th>
+              <th class="text-info text-center">Mi PyME</th>
+              <th class="text-center rompetabla">Contexto</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="text-center align-middle text-muted"><i class="fa fa-puzzle-piece fa-2x"></i></td>
+              <td class="align-middle"><p><strong>Tres</strong></p></td>
+              <td class="text-danger text-center">
+                <h4><strong>-10%</strong></h4></td>
+              <td class="text-center text-info ">
+                <h4><strong>70</strong></h4></td>
+              <td class="text-center">
+                <h4><strong>70</strong></h4></td>
+            </tr>
+            <tr>
+              <td class="text-center align-middle text-muted"><i class="fa fa-group fa-2x"></i></td>
+              <td class="align-middle"><p><strong>Tres</strong></p></td>
+              <td class="text-success text-center">
+                <h4><strong>+10%</strong></h4></td>
+              <td class="text-center text-info">
+                <h4><strong>20</strong></h4></td>
+              <td class="text-center">
+                <h4><strong>20</strong></h4></td>
+            </tr>
+            <tr>
+              <td class="text-center align-middle text-muted"><i class="fa fa-bullhorn fa-2x"></i></td>
+              <td class="align-middle"><p><strong>Tres</strong></p></td>
+              <td class="text-danger text-center">
+                <h4><strong>-10%</strong></h4></td>
+              <td class="text-center text-info">
+                <h4><strong>20</strong></h4></td>
+              <td class="text-center">
+                <h4><strong>20</strong></h4></td>
+            </tr>
+            <tr>
+              <td class="text-center align-middle text-muted"><i class="fa fa-gears fa-2x"></i></td>
+              <td class="align-middle"><p><strong>Tres</strong></p></td>
+              <td class="text-warning text-center">
+                <h4><strong>0%</strong></h4></td>
+              <td class="text-center text-info">
+                <h4><strong>20</strong></h4></td>
+              <td class="text-center">
+                <h4><strong>20</strong></h4></td>
+            </tr>
+            <tr>
+              <td class="text-center align-middle text-muted"><i class="fa fa-money fa-2x"></i></td>
+              <td class="align-middle"><p><strong>Tres</strong></p></td>
+              <td class="text-success text-center">
+                <h4><strong>+10%</strong></h4></td>
+              <td class="text-center text-info">
+                <h4><strong>20</strong></h4></td>
+              <td class="text-center">
+                <h4><strong>20</strong></h4></td>
+            </tr>
+            <tr>
+              <td class="text-center align-middle text-muted"><i class="fa fa-lightbulb-o fa-2x"></i></td>
+              <td class="align-middle"><p><strong>Tres</strong></p></td>
+              <td class="text-success text-center">
+                <h4><strong>+10%</strong></h4></td>
+              <td class="text-center text-info">
+                <h4><strong>02</strong></h4></td>
+              <td class="text-center">
+                <h4><strong>02</strong></h4></td>
+            </tr>
+            <tr>
+              <td class="text-center align-middle text-muted"><i class="fa fa-link fa-2x"></i></td>
+              <td class="align-middle"><p><strong>Tres</strong></p></td>
+              <td class="text-danger text-center">
+                <h4><strong>-10%</strong></h4></td>
+              <td class="text-center text-info">
+                <h4><strong>50</strong></h4></td>
+              <td class="text-center">
+                <h4><strong>50</strong></h4></td>
+            </tr>
+            <tr>
+              <td class="text-center align-middle text-muted"><i class="fa fa-leaf fa-2x"></i></td>
+              <td class="align-middle"><p><strong>tres</strong></p></td>
+              <td class="text-danger text-center">
+                <h4><strong>-10%</strong></h4></td>
+              <td class="text-center text-info">
+                <h4><strong>50</strong></h4></td>
+              <td class="text-center">
+                <h4><strong>50</strong></h4></td>
+            </tr>
+
+          </tbody>
+        </table>
+      </div>
     </div>
 
   </main>
