@@ -1,0 +1,12 @@
+.tooltip-borde{
+  /*border: 1px solid black;*/
+  box-shadow: 0 0 10px -2px black;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.tooltip-titulo{
+  margin: 0 !important;
+  padding: 5px;
+  padding-top: 15px;
+}

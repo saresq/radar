@@ -13,6 +13,7 @@
   <link href="css/roboto-fontface.css" rel="stylesheet">
   <link href="css/poncho.min.css" rel="stylesheet">
   <link href="css/palta.css" rel="stylesheet">
+  <link href="css/radar.css" rel="stylesheet">
 
 </head>
 
@@ -38,30 +39,8 @@
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">EL MINISTERIO <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="http://www.produccion.gob.ar/institucional/mision/">MISIÓN</a></li>
-                  <li><a href="http://www.produccion.gob.ar/institucional/el-ministro/">EL MINISTRO</a></li>
-                  <li><a href="http://www.produccion.gob.ar/institucional/organigrama/">ORGANIGRAMA</a></li>
-                  <li><a href="http://www.produccion.gob.ar/institucional/secretarias/secretaria-de-industria-2/">SECRETARIAS</a></li>
-                  <li><a href="http://www.produccion.gob.ar/institucional/subsecretarias/secretaria-de-industria/">SUBSECRETARIAS</a></li>
-                  <li><a href="http://www.produccion.gob.ar/casasdelaproduccion/">CASAS DE LA PRODUCCIÓN</a></li>
-                </ul>
-              </li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">TRÁMITES <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="http://www.produccion.gob.ar/guia-de-tramites/">TODOS</a></li>
-                  <li><a href="http://www.produccion.gob.ar/tramites-de-pymes/">PYME</a></li>
-                  <li><a href="http://www.produccion.gob.ar/tramites-de-emprendedores/">EMPRENDEDOR</a></li>
-                  <li><a href="http://www.produccion.gob.ar/tramites-de-consumidor/">CONSUMIDOR</a></li>
-                  <li><a href="http://www.produccion.gob.ar/tramites-comercio/">COMERCIO</a></li>
-                  <li><a href="http://www.produccion.gob.ar/tramites-de-industria/">INDUSTRIA</a></li>
-                  <li><a href="http://www.produccion.gob.ar/instituciones-productivas/">INSTITUCIONES</a></li>
-                </ul>
-              </li>
-              <li><a href="http://www.produccion.gob.ar/sala-de-prensa/comunicados/">SALA DE PRENSA</a></li>
+              <li><a href="#">Ayuda</a></li>
+              <li><button type="button" class="btn btn-success" name="button">INGRESÁ</button></li>
             </ul>
           </div>
           <!-- /.navbar-collapse -->
@@ -87,18 +66,17 @@
       </div>
     </header>
 
-    <div class="container-fluid bg-white">
-      <div class="container m-t-2 m-b-2">
+    <section class="container-fluid bg-white">
+      <div class="container">
 
-        <h2 class="text-info debold">Dimensiones estratégicas</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <h2 class="text-info debold">Resultados de Radar General</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 
       </div>
-    </div>
+    </section>
 
-    <div class="container">
-      <div class="row bg-white m-t-3 m-b-3" style="border: 1px solid #c9c9c9; border-radius:4px;">
+    <section class="container">
+      <div class="row bg-white m-t-1 m-b-1" style="border: 1px solid #c9c9c9; border-radius:4px;">
 
         <div class="col-md-3 col-xs-12">
 
@@ -113,7 +91,7 @@
                   <h5>Mi PyME</h5>
                 </div>
                 <div class="col-md-6">
-                  <h4><span class="label label-success">90</span></h4>
+                  <h4><span class="label label-success debold">90</span></h4>
                 </div>
               </div>
             </div>
@@ -124,7 +102,7 @@
                   <h5>Media</h5>
                 </div>
                 <div class="col-md-6">
-                  <h4><span class="label label-warning">50</span></h4>
+                  <h4><span class="label label-warning debold">50</span></h4>
                 </div>
               </div>
             </div>
@@ -203,128 +181,135 @@
         </div>
 
       </div>
-    </div>
+    </section>
 
-    <!-- <div class="container-fluid p-t-2 bg-white"> -->
-    <div class="container">
-      <div class="row">
+    <section class="container-fluid bg-white">
+      <div class="container p-l-2 p-r-2">
+        <div class="row">
 
-        <h2 class="text-info debold">Dimensiones estratégicas</h2>
+          <h2 class="text-info debold">Dimensiones estratégicas</h2>
+          <p><small></small></p>
+          <div class="table-responsive">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th></th>
+                  <th>Dimensión</th>
+                  <th class="text-center">Variación</th>
+                  <th class="text-info text-center">Mi PyME</th>
+                  <th class="text-center">Contexto</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="text-center align-middle text-muted"><i class="fa fa-puzzle-piece fa-2x"></i></td>
+                  <td class="align-middle">
+                    <a href="#"><p><strong>Gestión Estratégica</strong></p></a>
+                  </td>
+                  <td class="text-danger text-center">
+                    <h4><strong>-10%</strong></h4></td>
+                  <td class="text-center text-info ">
+                    <h4><stronge>70</strong></h4></td>
+                  <td class="text-center">
+                    <h4><strong>70</strong></h4></td>
+                </tr>
+                <tr>
+                  <td class="text-center align-middle text-muted"><i class="fa fa-group fa-2x"></i></td>
+                  <td class="align-middle">
+                    <a href="#"><p><strong>Gestión de Personas</strong></p></a>
+                  </td>
+                  <td class="text-success text-center">
+                    <h4><strong>+10%</strong></h4></td>
+                  <td class="text-center text-info">
+                    <h4><strong>20</strong></h4></td>
+                  <td class="text-center">
+                    <h4><strong>20</strong></h4></td>
+                </tr>
+                <tr>
+                  <td class="text-center align-middle text-muted"><i class="fa fa-bullhorn fa-2x"></i></td>
+                  <td class="align-middle">
+                    <a href="#"><p><strong>Gestión de Marketing</strong></p></a>
+                  </td>
+                  <td class="text-danger text-center">
+                    <h4><strong>-10%</strong></h4></td>
+                  <td class="text-center text-info">
+                    <h4><strong>20</strong></h4></td>
+                  <td class="text-center">
+                    <h4><strong>20</strong></h4></td>
+                </tr>
+                <tr>
+                  <td class="text-center align-middle text-muted"><i class="fa fa-gears fa-2x"></i></td>
+                  <td class="align-middle">
+                    <a href="#"><p><strong>Gestión de Operaciones</strong></p></a>
+                  </td>
+                  <td class="text-warning text-center">
+                    <h4><strong>0%</strong></h4></td>
+                  <td class="text-center text-info">
+                    <h4><strong>20</strong></h4></td>
+                  <td class="text-center">
+                    <h4><strong>20</strong></h4></td>
+                </tr>
+                <tr>
+                  <td class="text-center align-middle text-muted"><i class="fa fa-money fa-2x"></i></td>
+                  <td class="align-middle">
+                    <a href="#"><p><strong>Gestión Económico - Financiera</strong></p></a>
+                  </td>
+                  <td class="text-success text-center">
+                    <h4><strong>+10%</strong></h4></td>
+                  <td class="text-center text-info">
+                    <h4><strong>20</strong></h4></td>
+                  <td class="text-center">
+                    <h4><strong>20</strong></h4></td>
+                </tr>
+                <tr>
+                  <td class="text-center align-middle text-muted"><i class="fa fa-lightbulb-o fa-2x"></i></td>
+                  <td class="align-middle">
+                    <a href="#"><p><strong>Gestión de la Innovación</strong></p></a>
+                  </td>
+                  <td class="text-success text-center">
+                    <h4><strong>+10%</strong></h4></td>
+                  <td class="text-center text-info">
+                    <h4><strong>02</strong></h4></td>
+                  <td class="text-center">
+                    <h4><strong>02</strong></h4></td>
+                </tr>
+                <tr>
+                  <td class="text-center align-middle text-muted"><i class="fa fa-link fa-2x"></i></td>
+                  <td class="align-middle">
+                    <a href="#"><p><strong>Gestión de Cadena de Abastecimiento</strong></p></a>
+                  </td>
+                  <td class="text-danger text-center">
+                    <h4><strong>-10%</strong></h4></td>
+                  <td class="text-center text-info">
+                    <h4><strong>50</strong></h4></td>
+                  <td class="text-center">
+                    <h4><strong>50</strong></h4></td>
+                </tr>
+                <tr>
+                  <td class="text-center align-middle text-muted"><i class="fa fa-leaf fa-2x"></i></td>
+                  <td class="align-middle">
+                    <a href="#"><p><strong>Gestión de Sustentabilidad</strong></p></a>
+                  </td>
+                  <td class="text-danger text-center">
+                    <h4><strong>-10%</strong></h4></td>
+                  <td class="text-center text-info">
+                    <h4><strong>50</strong></h4></td>
+                  <td class="text-center">
+                    <h4><strong>50</strong></h4></td>
+                </tr>
 
-        <div class="table-responsive p-l-2 p-r-2">
-          <table class="table">
-            <thead>
-              <tr>
-                <th></th>
-                <th>Dimensión</th>
-                <th class="text-center">Variación</th>
-                <th class="text-info text-center">Mi PyME</th>
-                <th class="text-center">Contexto</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td class="text-center align-middle text-muted"><i class="fa fa-puzzle-piece fa-2x"></i></td>
-                <td class="align-middle">
-                  <p><strong>Gestión Estratégica</strong></p>
-                </td>
-                <td class="text-danger text-center">
-                  <h4><strong>-10%</strong></h4></td>
-                <td class="text-center text-info ">
-                  <h4><strong>70</strong></h4></td>
-                <td class="text-center">
-                  <h4><strong>70</strong></h4></td>
-              </tr>
-              <tr>
-                <td class="text-center align-middle text-muted"><i class="fa fa-group fa-2x"></i></td>
-                <td class="align-middle">
-                  <p><strong>Gestión de Personas</strong></p>
-                </td>
-                <td class="text-success text-center">
-                  <h4><strong>+10%</strong></h4></td>
-                <td class="text-center text-info">
-                  <h4><strong>20</strong></h4></td>
-                <td class="text-center">
-                  <h4><strong>20</strong></h4></td>
-              </tr>
-              <tr>
-                <td class="text-center align-middle text-muted"><i class="fa fa-bullhorn fa-2x"></i></td>
-                <td class="align-middle">
-                  <p><strong>Gestión de Marketing</strong></p>
-                </td>
-                <td class="text-danger text-center">
-                  <h4><strong>-10%</strong></h4></td>
-                <td class="text-center text-info">
-                  <h4><strong>20</strong></h4></td>
-                <td class="text-center">
-                  <h4><strong>20</strong></h4></td>
-              </tr>
-              <tr>
-                <td class="text-center align-middle text-muted"><i class="fa fa-gears fa-2x"></i></td>
-                <td class="align-middle">
-                  <p><strong>Gestión de Operaciones</strong></p>
-                </td>
-                <td class="text-warning text-center">
-                  <h4><strong>0%</strong></h4></td>
-                <td class="text-center text-info">
-                  <h4><strong>20</strong></h4></td>
-                <td class="text-center">
-                  <h4><strong>20</strong></h4></td>
-              </tr>
-              <tr>
-                <td class="text-center align-middle text-muted"><i class="fa fa-money fa-2x"></i></td>
-                <td class="align-middle">
-                  <p><strong>Gestión Económico - Financiera</strong></p>
-                </td>
-                <td class="text-success text-center">
-                  <h4><strong>+10%</strong></h4></td>
-                <td class="text-center text-info">
-                  <h4><strong>20</strong></h4></td>
-                <td class="text-center">
-                  <h4><strong>20</strong></h4></td>
-              </tr>
-              <tr>
-                <td class="text-center align-middle text-muted"><i class="fa fa-lightbulb-o fa-2x"></i></td>
-                <td class="align-middle">
-                  <p><strong>Gestión de la Innovación</strong></p>
-                </td>
-                <td class="text-success text-center">
-                  <h4><strong>+10%</strong></h4></td>
-                <td class="text-center text-info">
-                  <h4><strong>02</strong></h4></td>
-                <td class="text-center">
-                  <h4><strong>02</strong></h4></td>
-              </tr>
-              <tr>
-                <td class="text-center align-middle text-muted"><i class="fa fa-link fa-2x"></i></td>
-                <td class="align-middle">
-                  <p><strong>Gestión de Cadena de Abastecimiento</strong></p>
-                </td>
-                <td class="text-danger text-center">
-                  <h4><strong>-10%</strong></h4></td>
-                <td class="text-center text-info">
-                  <h4><strong>50</strong></h4></td>
-                <td class="text-center">
-                  <h4><strong>50</strong></h4></td>
-              </tr>
-              <tr>
-                <td class="text-center align-middle text-muted"><i class="fa fa-leaf fa-2x"></i></td>
-                <td class="align-middle">
-                  <p><strong>Gestión de Sustentabilidad</strong></p>
-                </td>
-                <td class="text-danger text-center">
-                  <h4><strong>-10%</strong></h4></td>
-                <td class="text-center text-info">
-                  <h4><strong>50</strong></h4></td>
-                <td class="text-center">
-                  <h4><strong>50</strong></h4></td>
-              </tr>
-
-            </tbody>
-          </table>
+              </tbody>
+            </table>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
+
+    <section class="container-fluid bg-info text-center center-block">
+      <button class="btn bg-white text-primary"><i class="fa fa-print text-primary" aria-hidden="true"></i>&nbsp; IMPRIMIR</button>
+      <button class="btn bg-white text-primary"><i class="fa fa-envelope-o text-primary" aria-hidden="true"></i>&nbsp; ENVIAR POR MAIL</button>
+      <button class="btn bg-white text-primary"><i class="fa fa-download text-primary" aria-hidden="true"></i>&nbsp; DESCARGAR</button>
+    </section>
 
   </main>
 
@@ -374,18 +359,60 @@
       },
       legend: {
         enabled: false
-        // squareSymbol: true,
-        // symbolRadius: 2,
-        // symbolHeight: 20,
-        // itemMarginBottom: 15,
-        // itemStyle: {
-        //     fontSize: 16
-        // },
-        // align: 'right',
-        // verticalAlign: 'top',
-        // layout: 'vertical',
-        // x: 0,
-        // y: 100
+      },
+      tooltip: {
+        borderColor: 'rgba(0,0,0,0)',
+        backgroundColor: 'rgba(0,0,0,0)',
+        shadow: false,
+        // followPointer: true,
+        useHTML: true,
+        formatter: function() {
+          var icon = [];
+
+          icon[360] = '<i class="fa fa-puzzle-piece fa-lg"> </i>';
+          icon[45] = '<i class="fa fa-group  fa-lg"> </i>';
+          icon[90] = '<i class="fa fa-bullhorn  fa-lg"> </i>';
+          icon[135] = '<i class="fa fa-gears  fa-lg"> </i>';
+          icon[180] = '<i class="fa fa-money  fa-lg"> </i>';
+          icon[225] = '<i class="fa fa-lightbulb-o  fa-lg"> </i>';
+          icon[270] = '<i class="fa fa-link  fa-lg"> </i>';
+          icon[315] = '<i class="fa fa-leaf  fa-lg"> </i>';
+
+          var text = [];
+
+          text[360] = ' Gestión Estratégica';
+          text[45] = ' Gestión de Personas';
+          text[90] = ' Gestión de Marketing';
+          text[135] = ' Gestión de Operaciones';
+          text[180] = ' Gestión Económico - Financiera';
+          text[225] = ' Gestión de la Innovación';
+          text[270] = ' Gestión de Cadena de Abastecimiento';
+          text[315] = ' Gestión de Sustentabilidad';
+
+          var title = '<div class="bg-white tooltip-borde"><div class="tooltip-titulo bg-primary"><p class=" p-l-1 p-r-1">' + icon[this.x] + text[this.x] + '</p></div>';
+          var body = '<div class="bg-white text-left">';
+          var footer = '</p></div></div>'
+
+
+          $.each(this.points, function(i, point) {
+
+            var clase;
+
+            if (this.y <= 33) {
+              clase = 'label-danger';
+            }else if (this.y <= 66) {
+              clase = 'label-warning';
+            }else {
+              clase = 'label-success';
+            }
+
+            body += '<p class=" p-l-1 p-r-1 p-t-1 text-center"><small><span style="color:'+ this.point.color +'">\u25CF</span> ' + this.series.name + '</small> &nbsp;<span class="label '+ clase +'">' + this.y + '</span></p>';
+          });
+
+          var msj = title + body + footer;
+          return msj;
+        },
+        shared: true
       },
 
       xAxis: {
@@ -395,16 +422,16 @@
         labels: {
           useHTML: true,
           formatter: function() {
-            var person = [];
-            person[0] = '<h1><i class="fa fa-puzzle-piece"> </i></h1>';
-            person[45] = '<h1><i class="fa fa-group "> </i></h1>';
-            person[90] = '<h1><i class="fa fa-bullhorn "> </i></h1>';
-            person[135] = '<h1><i class="fa fa-gears "> </i></h1>';
-            person[180] = '<h1><i class="fa fa-money "> </i></h1>';
-            person[225] = '<h1><i class="fa fa-lightbulb-o "> </i></h1>';
-            person[270] = '<h1><i class="fa fa-link "> </i></h1>';
-            person[315] = '<h1><i class="fa fa-leaf "> </i></h1>';
-            return person[this.value];
+            var icon = [];
+            icon[0] = '<h1><i class="fa fa-puzzle-piece"> </i></h1>';
+            icon[45] = '<h1><i class="fa fa-group "> </i></h1>';
+            icon[90] = '<h1><i class="fa fa-bullhorn "> </i></h1>';
+            icon[135] = '<h1><i class="fa fa-gears "> </i></h1>';
+            icon[180] = '<h1><i class="fa fa-money "> </i></h1>';
+            icon[225] = '<h1><i class="fa fa-lightbulb-o "> </i></h1>';
+            icon[270] = '<h1><i class="fa fa-link "> </i></h1>';
+            icon[315] = '<h1><i class="fa fa-leaf "> </i></h1>';
+            return icon[this.value];
           },
         }
       },
@@ -420,12 +447,13 @@
         series: {
           pointStart: 45,
           pointInterval: 45,
-          // step: 'left'
         },
         column: {
           pointPadding: 0,
           groupPadding: 0,
-          grouping: false
+          grouping: false,
+          borderWidth: 1,
+          borderColor: 'white'
         }
       },
 
@@ -433,12 +461,12 @@
         color: 'rgba(0,172,230,0.5)',
         type: 'column',
         name: 'Mi PyME',
-        data: [60, 70, 80, 90, 40, 30, 20, 10]
+        data: [60, 70, 65, 90, 40, 30, 20, 10]
       }, {
         color: 'rgba(0,0,0,0.1)',
         type: 'column',
         name: 'Media',
-        data: [10, 20, 30, 40, 50, 60, 70, 80]
+        data: [10, 20, 33, 40, 50, 60, 70, 80]
       }]
     });
   </script>
