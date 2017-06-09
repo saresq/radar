@@ -1,7 +1,6 @@
   /*HighCharts 420*/
 
 .tooltip-borde{
-  /*border: 1px solid black;*/
   box-shadow: 0 0 10px -2px black;
   border-radius: 4px;
   overflow: hidden;
@@ -31,6 +30,19 @@
 .chartHeaderItem{
   border-bottom: 1px solid #c9c9c9;
 }
+
+/*lista de pasos Mobile*/
+.progreso-item{
+  margin-left: 1.5rem !important;
+  margin-right: 1.5rem !important;
+  padding-top: 0.25rem;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 32px;
+  height: 32px;
+  list-style-position:
+}
+
 /* DASHBOARD PROGRESS CIRCLE */
 
 .progress-circle-alert.media .c100{
