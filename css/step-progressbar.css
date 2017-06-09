@@ -1,7 +1,26 @@
+.relative{
+  position: relative;
+}
 
 .step-progressbar{
   height: 50px;
   counter-reset: step;
+}
+
+ul.step-progressbar:before{
+  content: '';
+  position: absolute;
+  width: 93%;
+  background-color: #c9c9c9;
+  height: 2px;
+  top: 9px;
+  z-index: -2;
+}
+
+@media screen and (max-width: 991px){
+  ul.step-progressbar:before{
+    width: 90%;
+  }
 }
 
 .step-progressbar li{
@@ -29,16 +48,6 @@
   text-align: center;
 }
 
-ul.step-progressbar:before{
-  content: '';
-  position: absolute;
-  width: 90%;
-  background-color: #c9c9c9;
-  height: 2px;
-  top: 9px;
-  z-index: -2;
-}
-
 .step-progressbar li.completed:before{
   background-color: #33b560;
 }
@@ -49,6 +58,18 @@ ul.step-progressbar:before{
   position: absolute;
   height: 2px;
   top: 9px;
+  width: 100%;
+  left: -25%;
+  z-index: -1;
+}
+
+.step-progressbar li.completed:first-child:after{
+  content: '';
+  background-color: #DCEDE6;
+  position: absolute;
+  height: 2px;
+  top: 9px;
   width: 75%;
+  left:0;
   z-index: -1;
 }
