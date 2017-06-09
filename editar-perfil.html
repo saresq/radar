@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>TEMPLATE</title>
+  <title>editPerfil</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
 
@@ -29,303 +30,232 @@
   <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
   <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
   <![endif]-->
-  
-</head>
-<body class="hold-transition skin-blue sidebar-mini">
-<div class="wrapper">
 
-<header class="header" style="background-color:#FFFFFF; z-index:15000;">
-    <nav class="navbar navbar-default" style="z-index: 10000;">
-      <div class="container">
-        <div class="container-fluid">
+</head>
+
+<body class="hold-transition skin-blue sidebar-mini">
+  <div class="wrapper">
+
+    <header class="header" style="background-color:#FFFFFF; z-index:15000;">
+      <nav class="navbar navbar-default" style="z-index: 10000;">
+        <div class="container">
+          <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed pull-right" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <button type="button" class="navbar-toggle collapsed pull-right" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                 <span class="sr-only">Burger</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 </button>
-                
-                <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button" style="margin-top: 1.4em; float: left; padding-right: 7px;">
-	                <div class="navbar-toggle collapsed pull-right" style="margin-top:-4px; padding:5px 10px;"><i class="fa fa-bars" style="color:#ddd;"></i></div>
-                </a> 
-                <a class="navbar-brand" href="#"><img src="img/logoMinisterio.png" height="50" alt=""></a>
-                
+
+              <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button" style="margin-top: 1.4em; float: left; padding-right: 7px;">
+                <div class="navbar-toggle collapsed pull-right" style="margin-top:-4px; padding:5px 10px;"><i class="fa fa-bars" style="color:#ddd;"></i></div>
+              </a>
+              <a class="navbar-brand" href="#"><img src="img/logoMinisterio.png" height="50" alt=""></a>
+
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                
-              <!--
-              <li class="dropdown messages-menu">
-                <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
-	                <i class="fa fa-bars"></i>
-                </a>              
-              </li>
-              -->
-              <li class="dropdown notifications-menu">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              <ul class="nav navbar-nav navbar-right">
+
+                <li class="dropdown notifications-menu">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                   <i class="fa fa-envelope-o"></i>
                   <span class="label label-success">4</span>            </a>
-                <ul class="dropdown-menu">
-                  <li class="header">You have 10 notifications</li>
-                  <li>
-                    <ul class="menu">
-                      <li>
-                        <a href="#">
+                  <ul class="dropdown-menu">
+                    <li class="header">You have 10 notifications</li>
+                    <li>
+                      <ul class="menu">
+                        <li>
+                          <a href="#">
                           <i class="fa fa-users text-aqua"></i> 5 new members joined today
                         </a>
-                      </li>
-                      <li>
-                        <a href="#">
+                        </li>
+                        <li>
+                          <a href="#">
                           <i class="fa fa-warning text-yellow"></i> Very long description here that may not fit into the
                           page and may cause design problems
                         </a>
-                      </li>
-                      <li>
-                        <a href="#">
+                        </li>
+                        <li>
+                          <a href="#">
                           <i class="fa fa-users text-red"></i> 5 new members joined
                         </a>
-                      </li>
-                      <li>
-                        <a href="#">
+                        </li>
+                        <li>
+                          <a href="#">
                           <i class="fa fa-shopping-cart text-green"></i> 25 sales made
                         </a>
-                      </li>
-                      <li>
-                        <a href="#">
+                        </li>
+                        <li>
+                          <a href="#">
                           <i class="fa fa-user text-red"></i> You changed your username
                         </a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li class="footer"><a href="#">View all</a></li>
-                </ul>
-              </li>
-              
-              <li class="dropdown messages-menu">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="footer"><a href="#">View all</a></li>
+                  </ul>
+                </li>
+
+                <li class="dropdown messages-menu">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                   <i class="fa fa-bell-o"></i>
                   <span class="label label-warning">10</span>
-                </a>              
-                <ul class="dropdown-menu">
-                  <li class="header">You have 4 messages</li>
-                  <li>
-                    <ul class="menu">
-                      <li>
-                        <a href="#">
-                          <div class="pull-left">
-                            <i class="fa fa-arrow-circle-o-right fa-2x" style="color:#FFCC00;"></i>
-                          </div>
-                          <h4>
+                </a>
+                  <ul class="dropdown-menu">
+                    <li class="header">You have 4 messages</li>
+                    <li>
+                      <ul class="menu">
+                        <li>
+                          <a href="#">
+                            <div class="pull-left">
+                              <i class="fa fa-arrow-circle-o-right fa-2x" style="color:#FFCC00;"></i>
+                            </div>
+                            <h4>
                             Support Team
                             <small><i class="fa fa-clock-o"></i> 5 mins</small>
                           </h4>
-                          <p>Why not buy a new awesome theme?</p>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <div class="pull-left">
-                            <i class="fa fa-arrow-circle-o-right fa-2x" style="color:#FFCC00;"></i>
-                          </div>
-                          <h4>
+                            <p>Why not buy a new awesome theme?</p>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <div class="pull-left">
+                              <i class="fa fa-arrow-circle-o-right fa-2x" style="color:#FFCC00;"></i>
+                            </div>
+                            <h4>
                             AdminLTE Design Team
                             <small><i class="fa fa-clock-o"></i> 2 hours</small>
                           </h4>
-                          <p>Why not buy a new awesome theme?</p>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <div class="pull-left">
-                            <i class="fa fa-arrow-circle-o-right fa-2x" style="color:#FFCC00;"></i>
-                          </div>
-                          <h4>
+                            <p>Why not buy a new awesome theme?</p>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <div class="pull-left">
+                              <i class="fa fa-arrow-circle-o-right fa-2x" style="color:#FFCC00;"></i>
+                            </div>
+                            <h4>
                             Developers
                             <small><i class="fa fa-clock-o"></i> Today</small>
                           </h4>
-                          <p>Why not buy a new awesome theme?</p>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <div class="pull-left">
-                            <i class="fa fa-arrow-circle-o-right fa-2x" style="color:#FFCC00;"></i>
-                          </div>
-                          <h4>
+                            <p>Why not buy a new awesome theme?</p>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <div class="pull-left">
+                              <i class="fa fa-arrow-circle-o-right fa-2x" style="color:#FFCC00;"></i>
+                            </div>
+                            <h4>
                             Sales Department
                             <small><i class="fa fa-clock-o"></i> Yesterday</small>
                           </h4>
-                          <p>Why not buy a new awesome theme?</p>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <div class="pull-left">
-                            <i class="fa fa-arrow-circle-o-right fa-2x" style="color:#FFCC00;"></i>
-                          </div>
-                          <h4>
+                            <p>Why not buy a new awesome theme?</p>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <div class="pull-left">
+                              <i class="fa fa-arrow-circle-o-right fa-2x" style="color:#FFCC00;"></i>
+                            </div>
+                            <h4>
                             Reviewers
                             <small><i class="fa fa-clock-o"></i> 2 days</small>
                           </h4>
-                          <p>Why not buy a new awesome theme?</p>
-                        </a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li class="footer"><a href="#">See All Messages</a></li>
-                </ul>
-              </li>
+                            <p>Why not buy a new awesome theme?</p>
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="footer"><a href="#">See All Messages</a></li>
+                  </ul>
+                </li>
 
-              <!--
-              <li class="dropdown tasks-menu">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                  <i class="fa fa-flag-o"></i>
-                  <span class="label label-danger">9</span>            </a>
-                <ul class="dropdown-menu">
-                  <li class="header">You have 9 tasks</li>
-                  <li>
-                    <ul class="menu">
-                      <li>
-                        <a href="#">
-                          <h3>
-                            Design some buttons
-                            <small class="pull-right">20%</small>
-                          </h3>
-                          <div class="progress xs">
-                            <div class="progress-bar progress-bar-aqua" style="width: 20%" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
-                              <span class="sr-only">20% Complete</span>
-                            </div>
-                          </div>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <h3>
-                            Create a nice theme
-                            <small class="pull-right">40%</small>
-                          </h3>
-                          <div class="progress xs">
-                            <div class="progress-bar progress-bar-aqua" style="width: 40%" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
-                              <span class="sr-only">40% Complete</span>
-                            </div>
-                          </div>
-                        </a>
-                      </li>
-                      
-                      <li>
-                        <a href="#">
-                          <h3>
-                            Some task I need to do
-                            <small class="pull-right">60%</small>
-                          </h3>
-                          <div class="progress xs">
-                            <div class="progress-bar progress-bar-red" style="width: 60%" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
-                              <span class="sr-only">60% Complete</span>
-                            </div>
-                          </div>
-                        </a>
-                      </li>
-                      
-                      <li>
-                        <a href="#">
-                          <h3>
-                            Make beautiful transitions
-                            <small class="pull-right">80%</small>
-                          </h3>
-                          <div class="progress xs">
-                            <div class="progress-bar progress-bar-yellow" style="width: 80%" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
-                              <span class="sr-only">80% Complete</span>
-                            </div>
-                          </div>
-                        </a>
-                      </li>
-                      
-                    </ul>
-                  </li>
-                  <li class="footer">
-                    <a href="#">View all tasks</a>
-                  </li>
-                </ul>
-              </li>
-              -->
-              
-              <li class="dropdown user user-menu">
-                <a href="#" class="dropdown-toggle bg-primary" data-toggle="dropdown">
+                <li class="dropdown user user-menu">
+                  <a href="#" class="dropdown-toggle bg-primary" data-toggle="dropdown">
                   <span class="hidden-xs">Alexander Pierce</span>
                   <i class="fa fa-user navIco" style="color:#FFFFFF;"></i>
                 </a>
-                <ul class="dropdown-menu" style="width:100%;">
-                  <li class="user-header bg-white">
-                    
-                    <i class="fa fa-user fa-3x" style="color:#0695d6; border-radius: 50%; border: 4px solid #0695d6; padding: 10px 15px;"></i>
-                    <p class="text-black">
-                      Alexander Pierce
-                      <small>Member since Nov. 2012</small>
-                    </p>
-                  </li>
-                  <li>
+                  <ul class="dropdown-menu" style="width:100%;">
+                    <li class="user-header bg-white">
+
+                      <i class="fa fa-user fa-3x" style="color:#0695d6; border-radius: 50%; border: 4px solid #0695d6; padding: 10px 15px;"></i>
+                      <p class="text-black">
+                        Alexander Pierce
+                        <small>Member since Nov. 2012</small>
+                      </p>
+                    </li>
+                    <li>
                       <a href="#" class="">Profile</a>
                       <a href="#" class="">Sign out</a>
-                  </li>
-                </ul>
-                
-              </li>
-              <!--
-              <li>
-                <a href="#" data-toggle="control-sidebar"><i class="fa fa-gears"></i></a>
-              </li>
-              -->
+                    </li>
+                  </ul>
 
-                </ul>
+                </li>
+              </ul>
             </div>
             <!-- /.navbar-collapse -->
+          </div>
+          <!-- /.container-fluid -->
         </div>
-        <!-- /.container-fluid -->
-      </div>
-    </nav>
-  </header>
+      </nav>
+    </header>
 
-  <aside class="main-sidebar">
-    <!-- sidebar: style can be found in sidebar.less -->
-    <section class="sidebar">
+    <aside class="main-sidebar">
+      <!-- sidebar: style can be found in sidebar.less -->
+      <section class="sidebar">
 
-      <ul class="sidebar-menu side-bar-margin">
-    <!--<li class="header">SIDE NAVIGATOR</li>-->
-        <li class="treeview hidden-xs">
+        <ul class="sidebar-menu side-bar-margin">
+          <!--<li class="header">SIDE NAVIGATOR</li>-->
+          <li class="treeview hidden-xs">
             <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
                 <i class="fa fa-bars"></i>
                 <span class="sr-only">Toggle navigation</span>
-            </a>          
-        </li>
-        <li class="treeview">
-          <a href="#">
+            </a>
+          </li>
+          <li class="treeview">
+            <a href="#">
             <i class="fa fa-dashboard"></i> <span>Dashboard</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
           </a>
-        </li>
-        <li class="treeview active">
-          <a href="#">
+          </li>
+          <li class="treeview active">
+            <a href="#">
             <i class="fa fa-user"></i>
             <span>Mi perfil</span>
           </a>
-        </li>
-      </ul>
-    </section>
-    <!-- /.sidebar -->
-  </aside>
+          </li>
+        </ul>
+      </section>
+      <!-- /.sidebar -->
+    </aside>
 
-  
-  <!-- Content Wrapper. Contains page content -->
-  <div class="content-wrapper">
-    <!-- Main content -->
+
+    <!-- Content Wrapper. Contains page content -->
+    <div class="content-wrapper">
+      <!-- Main content -->
+      <header class="p-b-1 bg-gray">
+        <div class="container">
+
+          <ol class="breadcrumb">
+            <a href="#myModal" data-toggle="modal"><i class="fa fa-arrow-circle-o-down fa-2x p-l-1 p-r-1" style="float:right;"></i></a>
+            <a href="#myModal" data-toggle="modal"><i class="fa fa-envelope-o fa-2x p-l-1 p-r-1" style="float:right;"></i></a>
+            <a href="#myModal" data-toggle="modal"><i class="fa fa-print fa-2x p-l-1 p-r-1" style="float:right;"></i></a>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Cuestionario</a></li>
+            <li class="active">Radar General</li>
+          </ol>
+        </div>
+      </header>
 
       <section class="content-header">
+        <h2 class="debold">Modificar datos</h2>
         <div class="panel panel-default profile-panel">
           <div class="panel-heading bg-primary">
             <h4>Datos mi PyME</h4>
@@ -409,26 +339,26 @@
           <button class="btn btn-success">Guardar</button>
         </div>
       </section>
-    <!-- /.content -->
-  </div>
+      <!-- /.content -->
+    </div>
 
-  <!-- /.content-wrapper -->
+    <!-- /.content-wrapper -->
 
-  <!-- Control Sidebar -->
-  <aside class="control-sidebar control-sidebar-dark">
-    <!-- Create the tabs -->
-    <ul class="nav nav-tabs nav-justified control-sidebar-tabs">
-      <li><a href="#control-sidebar-home-tab" data-toggle="tab"><i class="fa fa-home"></i></a></li>
-      <li><a href="#control-sidebar-settings-tab" data-toggle="tab"><i class="fa fa-gears"></i></a></li>
-    </ul>
-    <!-- Tab panes -->
-    <div class="tab-content">
-      <!-- Home tab content -->
-      <div class="tab-pane" id="control-sidebar-home-tab">
-        <h3 class="control-sidebar-heading">Recent Activity</h3>
-        <ul class="control-sidebar-menu">
-          <li>
-            <a href="javascript:void(0)">
+    <!-- Control Sidebar -->
+    <aside class="control-sidebar control-sidebar-dark">
+      <!-- Create the tabs -->
+      <ul class="nav nav-tabs nav-justified control-sidebar-tabs">
+        <li><a href="#control-sidebar-home-tab" data-toggle="tab"><i class="fa fa-home"></i></a></li>
+        <li><a href="#control-sidebar-settings-tab" data-toggle="tab"><i class="fa fa-gears"></i></a></li>
+      </ul>
+      <!-- Tab panes -->
+      <div class="tab-content">
+        <!-- Home tab content -->
+        <div class="tab-pane" id="control-sidebar-home-tab">
+          <h3 class="control-sidebar-heading">Recent Activity</h3>
+          <ul class="control-sidebar-menu">
+            <li>
+              <a href="javascript:void(0)">
               <i class="menu-icon fa fa-birthday-cake bg-red"></i>
 
               <div class="menu-info">
@@ -437,9 +367,9 @@
                 <p>Will be 23 on April 24th</p>
               </div>
             </a>
-          </li>
-          <li>
-            <a href="javascript:void(0)">
+            </li>
+            <li>
+              <a href="javascript:void(0)">
               <i class="menu-icon fa fa-user bg-yellow"></i>
 
               <div class="menu-info">
@@ -448,9 +378,9 @@
                 <p>New phone +1(800)555-1234</p>
               </div>
             </a>
-          </li>
-          <li>
-            <a href="javascript:void(0)">
+            </li>
+            <li>
+              <a href="javascript:void(0)">
               <i class="menu-icon fa fa-envelope-o bg-light-blue"></i>
 
               <div class="menu-info">
@@ -459,9 +389,9 @@
                 <p>nora@example.com</p>
               </div>
             </a>
-          </li>
-          <li>
-            <a href="javascript:void(0)">
+            </li>
+            <li>
+              <a href="javascript:void(0)">
               <i class="menu-icon fa fa-file-code-o bg-green"></i>
 
               <div class="menu-info">
@@ -470,194 +400,195 @@
                 <p>Execution time 5 seconds</p>
               </div>
             </a>
-          </li>
-        </ul>
-        <!-- /.control-sidebar-menu -->
+            </li>
+          </ul>
+          <!-- /.control-sidebar-menu -->
 
-        <h3 class="control-sidebar-heading">Tasks Progress</h3>
-        <ul class="control-sidebar-menu">
-          <li>
-            <a href="javascript:void(0)">
-              <h4 class="control-sidebar-subheading">
+          <h3 class="control-sidebar-heading">Tasks Progress</h3>
+          <ul class="control-sidebar-menu">
+            <li>
+              <a href="javascript:void(0)">
+                <h4 class="control-sidebar-subheading">
                 Custom Template Design
                 <span class="label label-danger pull-right">70%</span>
               </h4>
 
-              <div class="progress progress-xxs">
-                <div class="progress-bar progress-bar-danger" style="width: 70%"></div>
-              </div>
-            </a>
-          </li>
-          <li>
-            <a href="javascript:void(0)">
-              <h4 class="control-sidebar-subheading">
+                <div class="progress progress-xxs">
+                  <div class="progress-bar progress-bar-danger" style="width: 70%"></div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="javascript:void(0)">
+                <h4 class="control-sidebar-subheading">
                 Update Resume
                 <span class="label label-success pull-right">95%</span>
               </h4>
 
-              <div class="progress progress-xxs">
-                <div class="progress-bar progress-bar-success" style="width: 95%"></div>
-              </div>
-            </a>
-          </li>
-          <li>
-            <a href="javascript:void(0)">
-              <h4 class="control-sidebar-subheading">
+                <div class="progress progress-xxs">
+                  <div class="progress-bar progress-bar-success" style="width: 95%"></div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="javascript:void(0)">
+                <h4 class="control-sidebar-subheading">
                 Laravel Integration
                 <span class="label label-warning pull-right">50%</span>
               </h4>
 
-              <div class="progress progress-xxs">
-                <div class="progress-bar progress-bar-warning" style="width: 50%"></div>
-              </div>
-            </a>
-          </li>
-          <li>
-            <a href="javascript:void(0)">
-              <h4 class="control-sidebar-subheading">
+                <div class="progress progress-xxs">
+                  <div class="progress-bar progress-bar-warning" style="width: 50%"></div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="javascript:void(0)">
+                <h4 class="control-sidebar-subheading">
                 Back End Framework
                 <span class="label label-primary pull-right">68%</span>
               </h4>
 
-              <div class="progress progress-xxs">
-                <div class="progress-bar progress-bar-primary" style="width: 68%"></div>
-              </div>
-            </a>
-          </li>
-        </ul>
-        <!-- /.control-sidebar-menu -->
+                <div class="progress progress-xxs">
+                  <div class="progress-bar progress-bar-primary" style="width: 68%"></div>
+                </div>
+              </a>
+            </li>
+          </ul>
+          <!-- /.control-sidebar-menu -->
 
-      </div>
-      <!-- /.tab-pane -->
-      <!-- Stats tab content -->
-      <div class="tab-pane" id="control-sidebar-stats-tab">Stats Tab Content</div>
-      <!-- /.tab-pane -->
-      <!-- Settings tab content -->
-      <div class="tab-pane" id="control-sidebar-settings-tab">
-        <form method="post">
-          <h3 class="control-sidebar-heading">General Settings</h3>
+        </div>
+        <!-- /.tab-pane -->
+        <!-- Stats tab content -->
+        <div class="tab-pane" id="control-sidebar-stats-tab">Stats Tab Content</div>
+        <!-- /.tab-pane -->
+        <!-- Settings tab content -->
+        <div class="tab-pane" id="control-sidebar-settings-tab">
+          <form method="post">
+            <h3 class="control-sidebar-heading">General Settings</h3>
 
-          <div class="form-group">
-            <label class="control-sidebar-subheading">
+            <div class="form-group">
+              <label class="control-sidebar-subheading">
               Report panel usage
               <input type="checkbox" class="pull-right" checked>
             </label>
 
-            <p>
-              Some information about this general settings option
-            </p>
-          </div>
-          <!-- /.form-group -->
+              <p>
+                Some information about this general settings option
+              </p>
+            </div>
+            <!-- /.form-group -->
 
-          <div class="form-group">
-            <label class="control-sidebar-subheading">
+            <div class="form-group">
+              <label class="control-sidebar-subheading">
               Allow mail redirect
               <input type="checkbox" class="pull-right" checked>
             </label>
 
-            <p>
-              Other sets of options are available
-            </p>
-          </div>
-          <!-- /.form-group -->
+              <p>
+                Other sets of options are available
+              </p>
+            </div>
+            <!-- /.form-group -->
 
-          <div class="form-group">
-            <label class="control-sidebar-subheading">
+            <div class="form-group">
+              <label class="control-sidebar-subheading">
               Expose author name in posts
               <input type="checkbox" class="pull-right" checked>
             </label>
 
-            <p>
-              Allow the user to show his name in blog posts
-            </p>
-          </div>
-          <!-- /.form-group -->
+              <p>
+                Allow the user to show his name in blog posts
+              </p>
+            </div>
+            <!-- /.form-group -->
 
-          <h3 class="control-sidebar-heading">Chat Settings</h3>
+            <h3 class="control-sidebar-heading">Chat Settings</h3>
 
-          <div class="form-group">
-            <label class="control-sidebar-subheading">
+            <div class="form-group">
+              <label class="control-sidebar-subheading">
               Show me as online
               <input type="checkbox" class="pull-right" checked>
             </label>
-          </div>
-          <!-- /.form-group -->
+            </div>
+            <!-- /.form-group -->
 
-          <div class="form-group">
-            <label class="control-sidebar-subheading">
+            <div class="form-group">
+              <label class="control-sidebar-subheading">
               Turn off notifications
               <input type="checkbox" class="pull-right">
             </label>
-          </div>
-          <!-- /.form-group -->
+            </div>
+            <!-- /.form-group -->
 
-          <div class="form-group">
-            <label class="control-sidebar-subheading">
+            <div class="form-group">
+              <label class="control-sidebar-subheading">
               Delete chat history
               <a href="javascript:void(0)" class="text-red pull-right"><i class="fa fa-trash-o"></i></a>
             </label>
-          </div>
-          <!-- /.form-group -->
-        </form>
-      </div>
-      <!-- /.tab-pane -->
-    </div>
-  </aside>
-  <!-- /.control-sidebar -->
-  <!-- Add the sidebar's background. This div must be placed
-       immediately after the control sidebar -->
-  <div class="control-sidebar-bg"></div>
-</div>
-<!-- ./wrapper -->
-
-<footer class="main-footer" style="padding-bottom: 32px; padding-top: 60px; border-top: 1px solid #cacaca; background:#FFFFFF; margin-left: 0px !important;">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-6">
-                <img class="image-responsive" src="img/logoMinisterio.png" alt="Ministerio de Producción">
-                <br>
-                <p class="text-muted small">Los contenidos de Produccion.gob.ar están licenciados bajo <a href="https://creativecommons.org/licenses/by/2.5/ar/">Creative Commons Reconocimiento 2.5 Argentina License</a>
-                </p>
             </div>
-            <div class="col-md-3 col-sm-6">
-                <div id="nav_menu-3" class="widget_nav_menu">
-                    <div class="menu-footer-b-container">
-                        <ul id="menu-footer-b" class="menu">
-                            <li id="menu-item-152" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-152"><a href="http:/#">Item I</a>
-                            </li>
-                            <li id="menu-item-153" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-153"><a href="http:/#">Item II</a>
-                            </li>
-                            <li id="menu-item-154" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-154"><a href="http:/#">Item III</a>
-                            </li>
-                            <li id="menu-item-155" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-155"><a href="http:/#">Item IV</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <div id="nav_menu-2" class="widget_nav_menu">
-                    <div class="menu-footer-a-container">
-                        <ul id="menu-footer-a" class="menu">
-                            <li id="menu-item-150" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-150"><a href="http:/#">Item 1</a>
-                            </li>
-                            <li id="menu-item-151" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-151"><a href="http:/#">Item 2</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+            <!-- /.form-group -->
+          </form>
         </div>
+        <!-- /.tab-pane -->
+      </div>
+    </aside>
+    <!-- /.control-sidebar -->
+    <!-- Add the sidebar's background. This div must be placed
+       immediately after the control sidebar -->
+    <div class="control-sidebar-bg"></div>
+  </div>
+  <!-- ./wrapper -->
+
+  <footer class="main-footer" style="padding-bottom: 32px; padding-top: 60px; border-top: 1px solid #cacaca; background:#FFFFFF; margin-left: 0px !important;">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <img class="image-responsive" src="img/logoMinisterio.png" alt="Ministerio de Producción">
+          <br>
+          <p class="text-muted small">Los contenidos de Produccion.gob.ar están licenciados bajo <a href="https://creativecommons.org/licenses/by/2.5/ar/">Creative Commons Reconocimiento 2.5 Argentina License</a>
+          </p>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div id="nav_menu-3" class="widget_nav_menu">
+            <div class="menu-footer-b-container">
+              <ul id="menu-footer-b" class="menu">
+                <li id="menu-item-152" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-152"><a href="http:/#">Item I</a>
+                </li>
+                <li id="menu-item-153" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-153"><a href="http:/#">Item II</a>
+                </li>
+                <li id="menu-item-154" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-154"><a href="http:/#">Item III</a>
+                </li>
+                <li id="menu-item-155" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-155"><a href="http:/#">Item IV</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div id="nav_menu-2" class="widget_nav_menu">
+            <div class="menu-footer-a-container">
+              <ul id="menu-footer-a" class="menu">
+                <li id="menu-item-150" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-150"><a href="http:/#">Item 1</a>
+                </li>
+                <li id="menu-item-151" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-151"><a href="http:/#">Item 2</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-</footer>
+  </footer>
 
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<!-- AdminLTE App -->
-<script src="js/app.min.js"></script>
-<!-- AdminLTE for demo purposes -->
-<script src="js/demo.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <!-- AdminLTE App -->
+  <script src="js/app.min.js"></script>
+  <!-- AdminLTE for demo purposes -->
+  <script src="js/demo.js"></script>
 
 </body>
+
 </html>

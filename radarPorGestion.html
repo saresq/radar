@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>TEMPLATE</title>
+  <title>radarPorGestion</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
 
@@ -208,7 +208,7 @@
     </header>
 
     <!-- Content Wrapper. Contains page content -->
-    <div class="">
+    <div id="contenidoPrincipal">
       <!-- Main content -->
       <script src="./js/highcharts.js"></script>
       <script src="./js/highcharts-more.js"></script>
@@ -223,7 +223,8 @@
               <a href="#myModal" data-toggle="modal"><i class="fa fa-print fa-2x p-l-1 p-r-1" style="float:right;"></i></a>
               <li><a href="#">Inicio</a></li>
               <li><a href="#">Cuestionario</a></li>
-              <li class="active">Radar General</li>
+              <li><a href="#">Radar General</a></li>
+              <li class="active">Radar por Gestión estratégica</li>
             </ol>
           </div>
         </header>
@@ -232,10 +233,14 @@
           <div class="container">
 
             <h2 class="text-info debold">Radar por Gestión estratégica</h2>
-            <div class="row">
-
+            <div class="row aligner">
+              <div class="col-md-1">
+                <i class="fa fa-gears fa-4x fa-label bg-info"></i></span>
+              </div>
+              <div class="col-md-11">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              </div>
             </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 
           </div>
         </section>
@@ -352,7 +357,7 @@
           <div class="container p-l-2 p-r-2">
             <div class="row">
 
-              <h2 class="text-info debold">Dimensiones estratégicas</h2>
+              <h2 class="text-info debold">Comparación General</h2>
               <p><small></small></p>
               <div class="table-responsive">
                 <table class="table">
@@ -367,11 +372,9 @@
                   </thead>
                   <tbody>
                     <tr>
-                      <td class="text-center align-middle text-muted"><i class="fa fa-puzzle-piece fa-2x"></i></td>
+                      <td class="text-center align-middle text-muted"><h2>1</h2></td>
                       <td class="align-middle">
-                        <a href="#">
-                          <p><strong>Gestión Estratégica</strong></p>
-                        </a>
+                          <p><strong>Plan Estratégico formal de corto y mediano plazo</strong></p>
                       </td>
                       <td class="text-danger text-center">
                         <h4><strong>-10%</strong></h4></td>
@@ -381,11 +384,9 @@
                         <h4><strong>70</strong></h4></td>
                     </tr>
                     <tr>
-                      <td class="text-center align-middle text-muted"><i class="fa fa-group fa-2x"></i></td>
+                      <td class="text-center align-middle text-muted"><h2>2</h2></td>
                       <td class="align-middle">
-                        <a href="#">
-                          <p><strong>Gestión de Personas</strong></p>
-                        </a>
+                          <p><strong>Declaración formal de misión, visión y valores</strong></p>
                       </td>
                       <td class="text-success text-center">
                         <h4><strong>+10%</strong></h4></td>
@@ -395,11 +396,9 @@
                         <h4><strong>20</strong></h4></td>
                     </tr>
                     <tr>
-                      <td class="text-center align-middle text-muted"><i class="fa fa-bullhorn fa-2x"></i></td>
+                      <td class="text-center align-middle text-muted"><h2>3</h2></td>
                       <td class="align-middle">
-                        <a href="#">
-                          <p><strong>Gestión de Marketing</strong></p>
-                        </a>
+                          <p><strong>Roles y Funciones claramente establecidas</strong></p>
                       </td>
                       <td class="text-danger text-center">
                         <h4><strong>-10%</strong></h4></td>
@@ -409,11 +408,9 @@
                         <h4><strong>20</strong></h4></td>
                     </tr>
                     <tr>
-                      <td class="text-center align-middle text-muted"><i class="fa fa-gears fa-2x"></i></td>
+                      <td class="text-center align-middle text-muted"><h2>4</h2></td>
                       <td class="align-middle">
-                        <a href="#">
-                          <p><strong>Gestión de Operaciones</strong></p>
-                        </a>
+                          <p><strong>Plan estratégico a todos los colaboradores</strong></p>
                       </td>
                       <td class="text-warning text-center">
                         <h4><strong>0%</strong></h4></td>
@@ -423,11 +420,9 @@
                         <h4><strong>20</strong></h4></td>
                     </tr>
                     <tr>
-                      <td class="text-center align-middle text-muted"><i class="fa fa-money fa-2x"></i></td>
+                      <td class="text-center align-middle text-muted"><h2>5</h2></td>
                       <td class="align-middle">
-                        <a href="#">
-                          <p><strong>Gestión Económico - Financiera</strong></p>
-                        </a>
+                          <p><strong>Tablero de Control con las principales variables del negocio</strong></p>
                       </td>
                       <td class="text-success text-center">
                         <h4><strong>+10%</strong></h4></td>
@@ -437,11 +432,9 @@
                         <h4><strong>20</strong></h4></td>
                     </tr>
                     <tr>
-                      <td class="text-center align-middle text-muted"><i class="fa fa-lightbulb-o fa-2x"></i></td>
+                      <td class="text-center align-middle text-muted"><h2>6</h2></td>
                       <td class="align-middle">
-                        <a href="#">
-                          <p><strong>Gestión de la Innovación</strong></p>
-                        </a>
+                          <p><strong>Equipo directivo y gerencial profesionalizado</strong></p>
                       </td>
                       <td class="text-success text-center">
                         <h4><strong>+10%</strong></h4></td>
@@ -451,25 +444,9 @@
                         <h4><strong>02</strong></h4></td>
                     </tr>
                     <tr>
-                      <td class="text-center align-middle text-muted"><i class="fa fa-link fa-2x"></i></td>
+                      <td class="text-center align-middle text-muted"><h2>7</h2></td>
                       <td class="align-middle">
-                        <a href="#">
-                          <p><strong>Gestión de Cadena de Abastecimiento</strong></p>
-                        </a>
-                      </td>
-                      <td class="text-danger text-center">
-                        <h4><strong>-10%</strong></h4></td>
-                      <td class="text-center text-info">
-                        <h4><strong>50</strong></h4></td>
-                      <td class="text-center">
-                        <h4><strong>50</strong></h4></td>
-                    </tr>
-                    <tr>
-                      <td class="text-center align-middle text-muted"><i class="fa fa-leaf fa-2x"></i></td>
-                      <td class="align-middle">
-                        <a href="#">
-                          <p><strong>Gestión de Sustentabilidad</strong></p>
-                        </a>
+                          <p><strong>Mecanismos formales para la toma de decisión</strong></p>
                       </td>
                       <td class="text-danger text-center">
                         <h4><strong>-10%</strong></h4></td>
@@ -551,7 +528,7 @@
   <!-- AdminLTE for demo purposes -->
   <script src="js/demo.js"></script>
 
-  <script src="js/radar.js" type="text/javascript"></script>
+  <script src="js/radarPorGestion.js" type="text/javascript"></script>
   <script src="js/popoverPalta.js" type="text/javascript"></script>
 
 </body>

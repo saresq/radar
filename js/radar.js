@@ -44,7 +44,7 @@ $(document).ready(function(){
         text[270] = ' Gestión de Cadena de Abastecimiento';
         text[315] = ' Gestión de Sustentabilidad';
 
-        var title = '<div class="bg-white tooltip-borde"><div class="tooltip-titulo bg-primary"><p class=" p-l-1 p-r-1">' + icon[this.x] + text[this.x] + '</p></div>';
+        var title = '<div class="bg-white tooltip-borde"><div class="tooltip-header bg-primary"><p class=" p-l-1 p-r-1">' + icon[this.x] + text[this.x] + '</p></div>';
         var body = '<div class="bg-white text-left">';
         var footer = '</p></div></div>'
 
@@ -100,7 +100,7 @@ $(document).ready(function(){
 
     plotOptions: {
       series: {
-        pointStart: 45,
+        pointStart: 0,
         pointInterval: 45,
       },
       column: {

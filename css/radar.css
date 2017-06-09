@@ -1,3 +1,5 @@
+  /*HighCharts 420*/
+
 .tooltip-borde{
   /*border: 1px solid black;*/
   box-shadow: 0 0 10px -2px black;
@@ -5,12 +7,30 @@
   overflow: hidden;
 }
 
-.tooltip-titulo{
+.tooltip-header{
   margin: 0 !important;
   padding: 5px;
   padding-top: 15px;
 }
 
+.tooltip-subtitulo{
+  zoom:0.8;
+  padding-left: 1.5em;
+}
+
+.chartContainer{
+  border: 1px solid #c9c9c9;
+  border-radius:4px;
+}
+
+.chartHeader{
+  border: 1px solid #c9c9c9;
+  border-left: 0px; border-top:0px;
+}
+
+.chartHeaderItem{
+  border-bottom: 1px solid #c9c9c9;
+}
 /* DASHBOARD PROGRESS CIRCLE */
 
 .progress-circle-alert.media .c100{
@@ -190,4 +210,13 @@
         bottom: 35;
         right: 180;
     }
+}
+/* Al agregarselo a un FontAwesome, junto con una clase de bg-color crea un recuadro redondeado al rededor del icono */
+.fa-label{
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.highcharts-container{
+  overflow: visible !important;
 }
