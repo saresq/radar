@@ -228,6 +228,13 @@ a img.aligncenter {
   padding-bottom: 0 !important;
 }
 
+/*Icono al final de input*/
+.fa-input {
+    position: absolute;
+    top: 0.45em;
+    z-index: 2;
+    right: 1.5em;
+}
 /*CONTACT FORM 7*/
 
 .form-group input {
@@ -744,34 +751,6 @@ a.unlink {
   .hidden-print {
     display: none!important
   }
-}
-
-.g-recaptcha > div{
-  width: 100% !important;
-}
-
-.bg-light-blue{
-  background-color: #D5EEF6;
-}
-
-.table{
-  table-layout: fixed;
-}
-
-.table tr{
-  border-bottom: 2px solid #bbb;
-}
-
-.fixed-width-150{
-  width: 150px;
-}
-
-.bg-goscuro{
-  background-color: #666 !important;
-}
-
-.text-white {
-  color: #ffffff !important;
 }
 
 /*MEDIA KIT*/
