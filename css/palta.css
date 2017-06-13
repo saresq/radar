@@ -27,7 +27,8 @@ html {
 }
 
 .numberdiv {
-  flex-flow: column
+  flex-flow: column;
+  text-align: center;
 }
 
 .iconoTexto, .panelIcono {
@@ -76,6 +77,11 @@ section .row {
 
 #site-footer .list-group-item {
   background-color: transparent
+}
+
+blockquote {
+  margin: 0;
+  text-align: center;
 }
 
 article {
@@ -220,6 +226,11 @@ a img.aligncenter {
   background-image: none
 }
 
+.btn-search{
+  margin-bottom: 0 !important;
+    height: 54px !important;
+}
+
 .navbar .navbar-brand {
   padding: 10px 0
 }
@@ -316,7 +327,8 @@ nav.stick {
 
 .maps {
   height: 60vh;
-  overflow: hidden
+  overflow: hidden;
+  margin-bottom: -47px;
 }
 
 .maps iframe {
@@ -614,6 +626,11 @@ a.unlink {
   background-color: #f7f7f7 !important;
 }
 
+.bg-default {
+  background-color: #767676 !important;
+  color: #ffffff;
+}
+
 .bg-celeste{
   background-color: #daf1f8 !important;
 }
@@ -666,7 +683,21 @@ a.unlink {
   color: #ffffff !important;
 }
 
+.bg-modal{
+  background: #F9F9F9;
+    border-radius: 4px;
+    box-shadow: 0 0 10px -4px black;
+    padding: 20px;
+    margin-left: -15px;
+    margin-right: -15px;
+}
 
+@media (max-width:768px) {
+  .bg-modal{
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
 /*FUNCIONES DE BOOTSTRAP V4*/
 
 .align-middle{
