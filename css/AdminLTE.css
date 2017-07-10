@@ -58,10 +58,10 @@ body {
 .right-side,
 .main-footer {
 
-  -webkit-transition: -webkit-transform 0.3s ease-in-out, margin 0.3s ease-in-out;
-  -moz-transition: -moz-transform 0.3s ease-in-out, margin 0.3s ease-in-out;
-  -o-transition: -o-transform 0.3s ease-in-out, margin 0.3s ease-in-out;
-  transition: transform 0.3s ease-in-out, margin 0.3s ease-in-out;
+  -webkit-transition: -webkit-transform 0.1s ease-in-out, margin 0.1s ease-in-out;
+  -moz-transition: -moz-transform 0.1s ease-in-out, margin 0.1s ease-in-out;
+  -o-transition: -o-transform 0.1s ease-in-out, margin 0.1s ease-in-out;
+  transition: transform 0.1s ease-in-out, margin 0.1s ease-in-out;
 
   margin-left: 230px;
   z-index: 820;
@@ -198,9 +198,9 @@ a:focus {
   z-index: 1030;
 }
 .main-header .navbar {
-  -webkit-transition: margin-left 0.3s ease-in-out;
-  -o-transition: margin-left 0.3s ease-in-out;
-  transition: margin-left 0.3s ease-in-out;
+  -webkit-transition: margin-left 0.1s ease-in-out;
+  -o-transition: margin-left 0.1s ease-in-out;
+  transition: margin-left 0.1s ease-in-out;
   margin-bottom: 0;
   margin-left: 230px;
   border: none;
@@ -433,10 +433,10 @@ a:focus {
   min-height: 100%;
   width: 230px;
   z-index: 810;
-  -webkit-transition: -webkit-transform 0.3s ease-in-out, width 0.3s ease-in-out;
-  -moz-transition: -moz-transform 0.3s ease-in-out, width 0.3s ease-in-out;
-  -o-transition: -o-transform 0.3s ease-in-out, width 0.3s ease-in-out;
-  transition: transform 0.3s ease-in-out, width 0.3s ease-in-out;
+  -webkit-transition: -webkit-transform 0.1s ease-in-out, width 0.1s ease-in-out;
+  -moz-transition: -moz-transform 0.1s ease-in-out, width 0.1s ease-in-out;
+  -o-transition: -o-transform 0.1s ease-in-out, width 0.1s ease-in-out;
+  transition: transform 0.1s ease-in-out, width 0.1s ease-in-out;
 }
 @media (max-width: 767px) {
 	.sidebar {
@@ -703,7 +703,7 @@ a:focus {
 .sidebar-menu,
 .main-sidebar .user-panel,
 .sidebar-menu > li.header {
-  white-space: nowrap;
+  /*white-space: nowrap;*/
   overflow: hidden;
 }
 .sidebar-menu:hover {
@@ -736,9 +736,9 @@ a:focus {
   top: 0;
   right: -230px;
   width: 230px;
-  -webkit-transition: right 0.3s ease-in-out;
-  -o-transition: right 0.3s ease-in-out;
-  transition: right 0.3s ease-in-out;
+  -webkit-transition: right 0.1s ease-in-out;
+  -o-transition: right 0.1s ease-in-out;
+  transition: right 0.1s ease-in-out;
 }
 .control-sidebar {
   position: absolute;
@@ -2711,6 +2711,7 @@ a:focus {
 .table > tbody > tr > td,
 .table > tfoot > tr > td {
   border-top: 1px solid #f4f4f4;
+  vertical-align: middle;
 }
 .table > thead > tr > th {
   border-bottom: 2px solid #f4f4f4;
@@ -3029,6 +3030,7 @@ table.text-center th {
  */
 .modal {
   background: rgba(0, 0, 0, 0.3);
+  z-index: 15000 !important;
 }
 .modal-content {
   border-radius: 0;
@@ -5019,3 +5021,24 @@ table.text-center th {
     color: #ef4d3d;
 }
 
+.table > tbody > tr > td .btn.btn-sm {
+	margin-bottom:0 !important;
+}
+
+.checkbox-toggle {
+	background:none;
+}
+
+.content-wrapper {
+	position: relative;
+}
+
+
+.fade.in {
+	z-index:10000;
+}
+
+
+.media {
+    margin-top: 0px;
+}
