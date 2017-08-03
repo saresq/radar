@@ -421,7 +421,7 @@ a:focus {
 .control-sidebar {
     position: absolute;
     padding-top: 124px;
-}	
+}
 
 .main-sidebar,
 .left-side {
@@ -446,7 +446,7 @@ a:focus {
 	.control-sidebar {
 		position: absolute;
 		padding-top: 116px;
-	}	
+	}
 
   .main-sidebar,
   .left-side {
@@ -614,7 +614,7 @@ a:focus {
 @media (min-width: 768px) {
   .control-sidebar {
     padding-top: 145px;
-  }  
+  }
 
   .sidebar-mini.sidebar-collapse .content-wrapper,
   .sidebar-mini.sidebar-collapse .right-side,
@@ -760,7 +760,7 @@ a:focus {
 .control-sidebar-open .control-sidebar-bg,
 .control-sidebar-open .control-sidebar {
   right: 0;
-  
+
 }
 @media (min-width: 768px) {
   .control-sidebar-open .content-wrapper,
@@ -804,7 +804,7 @@ a:focus {
   }
   .control-sidebar {
     padding-top: 116px;
-  }  
+  }
 }
 .control-sidebar-heading {
   font-weight: 400;
@@ -2710,17 +2710,17 @@ a:focus {
 .table > thead > tr > td,
 .table > tbody > tr > td,
 .table > tfoot > tr > td {
-  border-top: 1px solid #f4f4f4;
+  border-top: 1px solid #dddddd;
   vertical-align: middle;
 }
 .table > thead > tr > th {
-  border-bottom: 2px solid #f4f4f4;
+  border-bottom: 2px solid #dddddd;
 }
 .table tr td .progress {
   margin-top: 5px;
 }
 .table-bordered {
-  border: 1px solid #f4f4f4;
+  border: 1px solid #dddddd;
 }
 .table-bordered > thead > tr > th,
 .table-bordered > tbody > tr > th,
@@ -2728,7 +2728,7 @@ a:focus {
 .table-bordered > thead > tr > td,
 .table-bordered > tbody > tr > td,
 .table-bordered > tfoot > tr > td {
-  border: 1px solid #f4f4f4;
+  border: 1px solid #dddddd;
 }
 .table-bordered > thead > tr > th,
 .table-bordered > thead > tr > td {
@@ -5004,14 +5004,14 @@ table.text-center th {
 	.side-bar-margin {
 		margin-top: -40px !important;
 	}
-	
+
 	.navbar-nav > .notifications-menu > .dropdown-menu, .navbar-nav > .messages-menu > .dropdown-menu, .navbar-nav > .tasks-menu > .dropdown-menu			 {
 		width: 100%;
 		padding: 0 0 0 0;
 		margin: 0;
 		top: 100%;
 		border-radius:0;
-	}	
+	}
 }
 
 
